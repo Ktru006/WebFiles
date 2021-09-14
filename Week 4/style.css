@@ -1,0 +1,19 @@
+h1 {
+  font-size: 50px;
+}
+body {
+  font-family: Helvetica;
+  background-color: black;
+  color: white;
+}
+img {
+  width:20vw;
+  margin:20px;
+}
+form {
+  margin-left:20px;
+}
+
+#top h1 {
+  color:#038cfc
+}
