@@ -1,0 +1,66 @@
+h1 {
+  font-size: 50px;
+  font-family: Helvetica;
+  color: #1F271B;
+  text-align: center;
+}
+h2 {
+  color: #145C9E;
+  font-family: Arial;
+}
+h3 {
+  color: #145C9E;
+}
+h4 {
+  color: #145C9E;
+}
+h5 {
+  color: #145C9E;
+  font-size: 20px;
+}
+body{
+  font-family: sans-serif;
+  background-color: #CBB9A8;
+  color: #1F271B;
+}
+img {
+  width: 20vw;
+  border-style: solid;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20vw;
+}
+#info {
+  font-family:Arial;
+  border-radius: 10px;
+  border-color: #C6A495;
+  border-width: medium;
+  border-style:inset;
+  text-indent: 50px;
+}
+#interests {
+  color: #1F271B;
+}
+#course h3 {
+  font-family: monospace;
+  color: #145C9E;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+#goals{
+  color: #1F271B;
+  border-radius: 10px;
+  border-color: #C6A495;
+  border-width: medium;
+  border-style: dashed;
+  text-indent: 20px;
+}
+
+#course {
+  color: #1F271B;
+}
