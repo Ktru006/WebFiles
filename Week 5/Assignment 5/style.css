@@ -7,10 +7,9 @@
   font-size: 40px;
   text-align: center;
 }
-h2{
+#label{
   font-family: "Roboto";
   font-size: 50px;
-  margin-bottom: -5px;
   padding-left: 10px;
 }
 #Paragraph {
@@ -51,41 +50,42 @@ p {
 }
 #button1{
   border: solid #4A576D 2px;
-  margin: 30px 500px 30px 100px;
   border-radius: 10px;
   font-size: 20px;
   text-align: center;
   color: #BFC0C0;
   background-color: #2D3142;
+  padding: 5px 10px 5px 10px;
+  margin-right: 10px;
 }
 #button2{
   border: solid #4A576D 2px;
-  margin: 30px 500px 30px 100px;
   border-radius: 10px;
   font-size: 20px;
   text-align: center;
   color: #EF8354;
   background-color: #7989A4;
+  padding: 5px 10px 5px 10px;
+  margin-right: 10px;
 }
 #button3{
   border: solid #4A576D 2px;
-  margin: 30px 500px 30px 100px;
   border-radius: 10px;
   font-size: 20px;
   text-align: center;
   color: #BFC0C0;
   background-color: #4A576D;
+  padding: 5px 10px 5px 10px;
 }
 #textinput{
   border: solid #4A576D 2px;
-  margin: 30px 500px 30px 100px;
   border-radius: 10px;
   font-size: 20px;
-  padding-left: 20px;
+  padding: 5px 200px 5px 10px;
   color: #BFC0C0;
 }
 #colorp{
   height: 80vh;
   width: 100vw;
-  padding-top: 10px;
+  padding-top: 5px;
 }
