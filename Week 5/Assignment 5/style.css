@@ -1,0 +1,91 @@
+#Headers {
+  font-family: "Roboto";
+  padding-left: 10px;
+
+}
+#Title {
+  font-size: 40px;
+  text-align: center;
+}
+h1{
+  font-family: "Roboto";
+  font-size: 50px;
+  margin-bottom: -5px;
+  padding-left: 10px;
+}
+#Paragraph {
+  font-family: "Roboto";
+}
+p {
+  font-family: "Roboto";
+  font-weight: 200;
+  font-size: 12px;
+  padding: 10px;
+  margin-right: 40px;
+}
+#default{
+  color: blue;
+}
+#hover{
+  color: blue;
+  text-decoration: underline;
+}
+#clicked {
+  color: #BFC0C0;
+}
+#Silver{
+  border: solid #BFC0C0 2px;
+  margin: 30px 100px 30px 100px;
+}
+#Independence{
+  border: solid #4A576D 2px;
+  margin: 30px 100px 30px 100px;
+}
+#ShadowBlue{
+  border: solid #7989A4 2px;
+  margin: 30px 100px 30px 100px;
+}
+#Mandarin{
+  border: solid #EF8354 2px;
+  margin: 30px 100px 30px 100px;
+}
+#button1{
+  border: solid #4A576D 2px;
+  margin: 30px 500px 30px 100px;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+  color: #BFC0C0;
+  background-color: #2D3142;
+}
+#button2{
+  border: solid #4A576D 2px;
+  margin: 30px 500px 30px 100px;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+  color: #EF8354;
+  background-color: #7989A4;
+}
+#button3{
+  border: solid #4A576D 2px;
+  margin: 30px 500px 30px 100px;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+  color: #BFC0C0;
+  background-color: #4A576D;
+}
+#textinput{
+  border: solid #4A576D 2px;
+  margin: 30px 500px 30px 100px;
+  border-radius: 10px;
+  font-size: 20px;
+  padding-left: 20px;
+  color: #BFC0C0;
+}
+#colorp{
+  height: 80vh;
+  width: 100vw;
+  padding-top: 10px;
+}

@@ -1,0 +1,75 @@
+body {
+  font-family: arial;
+  padding: 0px;
+  margin: 0px;
+}
+
+p {
+  color: rgb(100,100,100)
+  font-size: 20px;
+}
+h1{
+  background-color: rgb(125, 125, 225);
+  margin-left: 50px;
+  font-family: "Ubuntu";
+}
+
+#second {
+  font-weight: bold;
+}
+.grey{
+  color: rgb(100,100,100);
+}
+
+.background{
+  background-color: rgb(225, 225, 225);
+}
+
+span {
+  color: blue;
+  font-weight: bold;
+}
+
+#sit{
+  font-family: cursive;
+}
+
+#solid{
+  border: solid rgb(225, 225, 140) 2px;
+}
+#dotted{
+  border: dotted rgb(225, 225, 140) 2px;
+}
+#dashed{
+  border: dashed rgb(225, 225, 140) 2px;
+}
+#double{
+  border: double rgb(225, 225, 140) 2px;
+}
+#ridge{
+  border: ridge rgb(225, 225, 140) 2px;
+}
+#groove{
+  border: groove rgb(225, 225, 140) 2px;
+}
+
+#two {
+  border: solid black 1px;
+  /* padding: top right bottom left; */
+  padding: 30px 0px 30px 0px;
+  margin: 0px 30px 0px 30px;
+}
+section{
+border: solid black 1px;
+}
+#hero{
+  width:100vw;
+  margin: 0px;
+  padding: 0px;
+  height: 50vh;
+}
+#header{
+  height: 50vh;
+  overflow: hidden;
+  position: relative;
+}
