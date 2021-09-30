@@ -1,0 +1,70 @@
+p{
+  color: red;
+  font-family: helvetica;
+}
+body{
+  padding: 0px;
+  margin: 0px;
+}
+h1, h2{
+  font-family: "Bebas Neue"
+}
+#hero {
+  width: 100vw;
+  height: 50vh;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+#hero img {
+  width: 100vw;
+  position: relative;
+}
+
+#hero h1 {
+  z-index: 1;
+  position: relative;
+  font-size: 5vw;
+  top: 30vh;
+  margin: 0 0 0 7vw;
+}
+
+#one, #two, #three{
+  margin-left: 7vw;
+  margin-right: 3vw;
+  margin-top: 7vw;
+}
+
+button{
+  background-color: #ebbd34;
+  font-family: "Bebas Neue";
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 7px 15px;
+}
+
+button:active{
+  background-color: blue;
+  color: white;
+}
+
+button:hover{
+  border: solid black 3px;
+}
+
+a:link{
+  color: blue;
+}
+
+a:active{
+  color: red;
+}
+
+a:hover{
+  font-size: 200%;
+  color: red;
+}
+
+a:visited{
+  color: grey;
+}

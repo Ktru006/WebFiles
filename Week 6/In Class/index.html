@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Week 6</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas+Neue">
+  </head>
+
+  <body>
+    <section id="hero">
+      <h1 id="herotext">Welcome to my site!</h1>
+      <img src="hero.jpg" alt="Skyline drawing">
+    </section>
+    <section id="one">
+      <h2>This is my first Section</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu dictum varius duis at consectetur lorem donec massa. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Et ligula ullamcorper malesuada proin libero nunc consequat interdum varius. Interdum posuere lorem ipsum dolor. Ipsum a arcu cursus vitae. Venenatis a condimentum vitae sapien pellentesque habitant morbi. Sed faucibus turpis in eu mi. Aliquet porttitor lacus luctus accumsan tortor posuere ac ut. Egestas maecenas pharetra convallis posuere. Sodales ut etiam sit amet nisl purus in. Elit at imperdiet dui accumsan sit. Sem fringilla ut morbi tincidunt augue interdum velit euismod in. Dictumst quisque sagittis purus sit amet volutpat consequat. Et molestie ac feugiat sed lectus.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu dictum varius duis at consectetur lorem donec massa. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Et ligula ullamcorper malesuada proin libero nunc consequat interdum varius. Interdum posuere lorem ipsum dolor. Ipsum a arcu cursus vitae. Venenatis a condimentum vitae sapien pellentesque habitant morbi. Sed faucibus turpis in eu mi. Aliquet porttitor lacus luctus accumsan tortor posuere ac ut. Egestas maecenas pharetra convallis posuere. Sodales ut etiam sit amet nisl purus in. Elit at imperdiet dui accumsan sit. Sem fringilla ut morbi tincidunt augue interdum velit euismod in. Dictumst quisque sagittis purus sit amet volutpat consequat. Et molestie ac feugiat sed lectus.</p>
+    </section>
+    <section id="two">
+      <h2>This is my <a href="https://google.com">second Section</a></h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu dictum varius duis at consectetur lorem donec massa. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Et ligula ullamcorper malesuada proin libero nunc consequat interdum varius. Interdum posuere lorem ipsum dolor. Ipsum a arcu cursus vitae. Venenatis a condimentum vitae sapien pellentesque habitant morbi. Sed faucibus turpis in eu mi. Aliquet porttitor lacus luctus accumsan tortor posuere ac ut. Egestas maecenas pharetra convallis posuere. Sodales ut etiam sit amet nisl purus in. Elit at imperdiet dui accumsan sit. Sem fringilla ut morbi tincidunt augue interdum velit euismod in. Dictumst quisque sagittis purus sit amet volutpat consequat. Et molestie ac feugiat sed lectus.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu dictum varius duis at consectetur lorem donec massa. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Et ligula ullamcorper malesuada proin libero nunc consequat interdum varius. Interdum posuere lorem ipsum dolor. Ipsum a arcu cursus vitae. Venenatis a condimentum vitae sapien pellentesque habitant morbi. Sed faucibus turpis in eu mi. Aliquet porttitor lacus luctus accumsan tortor posuere ac ut. Egestas maecenas pharetra convallis posuere. Sodales ut etiam sit amet nisl purus in. Elit at imperdiet dui accumsan sit. Sem fringilla ut morbi tincidunt augue interdum velit euismod in. Dictumst quisque sagittis purus sit amet volutpat consequat. Et molestie ac feugiat sed lectus.</p>
+    </section>
+    <section id="three">
+  <h2>This section contains a button</h2>
+  <button id="mybutton">Click this Button</button>
+  <button id="mybutton2">Click this Button</button>
+    </section>
+
+<script>
+  console.log("javascript working");
+  document.getElementById("mybutton").addEventListener("click", function(){alert("you pushed the button!!")});
+  document.getElementById("mybutton2").addEventListener("click", buttonClicked);
+  document.getElementById("hero").addEventListener("click", heroClicked);
+
+  function buttonClicked(){
+    alert("you pushed the button!!");
+    document.getElementById("herotext").innerHTML = "You are not welcomed!";
+  }
+  function heroClicked(){
+    alert("you clicked the hero!!");
+  }
+  // https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent
+</script>
+  </body>
+
+</html>

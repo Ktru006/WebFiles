@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Assignment 6  - Javascript 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+  </head>
+  <body>
+    <section id="title">
+      <h1 id="titletext">Let's Travel!</h1>
+      <img id="hero" src="earth.jpg" alt="earth">
+    </section>
+    <section id="sectionone">
+      <h2 id="denver">Denver, Colorado</h2>
+      <p>Denver, the capital of Colorado, is an American metropolis dating to the Old West era. Larimer Square, the city’s oldest block, features landmark 19th-century buildings. Museums include the Denver Art Museum, an ultramodern complex known for its collection of indigenous works, and the mansion of famed Titanic survivor Molly Brown. Denver is also a jumping-off point for ski resorts in the nearby Rocky Mountains. </p>
+      <button id="buttonone">Image of Denver</button>
+      </section>
+    <section id="sectiontwo">
+        <h2 id="chicago">Chicago, Illinois</h2>
+        <p>Chicago, on Lake Michigan in Illinois, is among the largest cities in the U.S. Famed for its bold architecture, it has a skyline punctuated by skyscrapers such as the iconic John Hancock Center, 1,451-ft. Willis Tower (formerly the Sears Tower) and the neo-Gothic Tribune Tower. The city is also renowned for its museums, including the Art Institute of Chicago with its noted Impressionist and Post-Impressionist works.</p>
+        <button id="buttontwo">Image of Chicago</button>
+        </section>
+<script>
+  document.getElementById("buttonone").addEventListener("click", denverClicked);
+  document.getElementById("buttontwo").addEventListener("click", chicagoClicked);
+
+  function denverClicked(){
+    document.getElementById("titletext").innerHTML = "Welcome to Denver!";
+    document.getElementById("hero").src ="denversky.jpg";
+    document.getElementById("denver").style.color ="red";
+    document.getElementById("chicago").style.color ="#4A576D";
+  }
+  function chicagoClicked(){
+    document.getElementById("titletext").innerHTML = "Welcome to Chicago!";
+    document.getElementById("hero").src="chicagosky.jpg";
+    document.getElementById("chicago").style.color ="red";
+    document.getElementById("denver").style.color ="#4A576D";
+  }
+</script>
+
+  </body>
+</html>

@@ -1,0 +1,58 @@
+h1 {
+  font-size: 50px;
+  font-family: "Oswald";
+  color: white;
+}
+
+h2 {
+  font-family: "Oswald";
+  font-size: 40px;
+  color: #4A576D;
+}
+
+#title img {
+  width: 100vw;
+  position: relative;
+  height: 70vh;
+}
+
+#title h1 {
+  z-index: 1;
+  position: relative;
+  font-size: 5vw;
+  top: 30vh;
+  margin: 0 0 0 7vw;
+}
+
+body{
+  padding: 0px;
+  margin: 0px;
+}
+#sectionone, #sectiontwo {
+  margin-left: 7vw;
+  margin-right: 3vw;
+  margin-top: 4vw;
+  border: solid #2D3142 2px;
+  padding-left: 10px;
+  margin-bottom: 3vw;
+  padding-bottom: 10px;
+}
+
+
+button{
+  background-color: #BFC0C0;
+  font-family: "Oswald";
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 5px 15px 5px 15px;
+}
+
+button:active{
+  background-color: blue;
+  color: #EF8354;
+}
+
+button:hover{
+  border: solid black 2px;
+  background-color: #7989A4;
+}
