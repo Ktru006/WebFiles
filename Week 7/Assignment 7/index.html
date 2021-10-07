@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Week 7 - Quote Machine</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+  </head>
+  <body>
+    <section id="quotesection">
+      <h1 id="qtext">Welcome to the Thought Generator, click the button to question your life.</h1>
+      <button id="newquote">New Shower Thought</button>
+      <button id="newquote2">New Trippy Thought</button>
+    </section>
+
+<script>
+  const showerquotes = ["A different version of you exists in the minds of everyone who knows you.", "Someone out there vividly remembers something you said, which you have completely forgotten.","If 24-hour clocks started at 23:59 and counted down till 00:01, people might try getting more done.","The posted speed limit is the legally accepted maximum limit, but the socially accepted minimum limit.","There are sidewalks in the Cars movies, but they are all cars.","Death is a paradox. It makes everything meaningless while it also gives meaning to everything."];
+  let quotecount = 0;
+
+  const trippyquotes = ["I connect the psychedelic dimension to the dimension of inspiration and dream.", "You're only as young as the last time you changed your mind.", "I have realized that the past and future are real illusions, that they exist in the present, which is what there is and all there is.", "To me, the psychedelic experience is the experience of trying to make sense of reality.", "You are a divine being. You matter, you count. You come from realms of unimaginable power and light, and you will return to those realms.The psychedelic mind is a higher dimensional mind, it is not fit for three dimensional space time.", "Life is only a dream, and we are the imagination of ourselves.", "Whenever in doubt, turn off your mind, relax, and float downstream."];
+  let quotecount2 = 0;
+
+document.getElementById("newquote").addEventListener("click", buttonClicked);
+document.getElementById("newquote2").addEventListener("click", buttonClicked2);
+
+function buttonClicked(){
+  console.log(showerquotes[quotecount]);
+  document.getElementById("qtext").innerHTML = showerquotes[quotecount];
+  document.getElementById("qtext").style.color = "black";
+  if (quotecount>=5){
+    quotecount= 0;
+  }else{
+  quotecount++;
+}
+}
+
+function buttonClicked2(){
+  console.log(trippyquotes[quotecount]);
+  document.getElementById("qtext").innerHTML = trippyquotes[quotecount2];
+  document.getElementById("qtext").style.color = "white";
+  if (quotecount2>=6){
+    quotecount2= 0;
+  }else{
+  quotecount2++;
+}
+}
+</script>
+
+  </body>
+</html>

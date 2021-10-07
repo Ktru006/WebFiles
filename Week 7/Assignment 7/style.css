@@ -1,0 +1,37 @@
+#quotesection{
+  background-color: #386FA4;
+  margin: 10vh 20vw;
+  padding: 10vh 10vw 10vh 10vw;
+  border-radius: 10px;
+  color: #91E5F6;
+  font-size: 20px;
+  text-align: center;
+}
+
+button {
+  border-radius: 10px;
+  padding: 1vh 3vw;
+  float: right;
+  margin-top: 1vh;
+  background-color: #59A5D8;
+  color:#133C55;
+  font-family: "Ubuntu"
+}
+
+button:hover{
+  border: #ffffff solid 2px;
+}
+button:active{
+  color: #91E5F6;
+}
+
+body{
+  background-image: url("https://www.liveabout.com/thmb/YznG64-crLGc4EW6wxVzoQ4gLjo=/1431x1431/smart/filters:no_upscale()/shower-thoughts-5b2a5dc743a103003662cd3e.jpg");
+}
+
+#newquote2 {
+  float: left;
+}
+#qtext {
+  font-family: "Ubuntu";
+}

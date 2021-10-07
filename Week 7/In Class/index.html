@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Week 7 - Quote Machine</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather+Garamond">
+  </head>
+  <body>
+    <section id="quotesection">
+      <h1 id="qtext">Welcome to the Quote Machine, click the button to get a quote.</h1>
+      <button id="newquote">New Quote</button>
+    </section>
+<section id="flex">
+  <div class="flexitem">
+    <h2>one</h2>
+  </div>
+  <div class="flexitem2">
+    <h2>two</h2>
+  </div>
+  <div class="flexitem">
+    <h2>three</h2>
+  </div>
+</section>
+
+
+    <script>
+      const quotes = ["I connect the psychedelic dimension to the dimension of inspiration and dream.", "You're only as young as the last time you changed your mind.", "I have realized that the past and future are real illusions, that they exist in the present, which is what there is and all there is.", "To me, the psychedelic experience is the experience of trying to make sense of reality.", "You are a divine being. You matter, you count. You come from realms of unimaginable power and light, and you will return to those realms.The psychedelic mind is a higher dimensional mind, it is not fit for three dimensional space time.", "Life is only a dream, and we are the imagination of ourselves.", "Whenever in doubt, turn off your mind, relax, and float downstream."];
+      let quotecount = 0;
+
+      document.getElementById("newquote").addEventListener("click", buttonClicked);
+
+      function buttonClicked(){
+        console.log(quotes[quotecount]);
+        document.getElementById("qtext").innerHTML = quotes[quotecount];
+        if (quotecount>=6){
+          quotecount= 0;
+        }else{
+        quotecount++;
+      }
+    }
+    </script>
+  </body>
+</html>
