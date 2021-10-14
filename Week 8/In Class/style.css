@@ -1,0 +1,37 @@
+div{
+  background-color: gray;
+}
+
+#places{
+  display: flex;
+}
+
+.options{
+  flex-grow: 1;
+  width: auto;
+  margin: 3vw;
+}
+
+img{
+  max-width: 25vw;
+  height: 30vh;
+  width: 25vw;
+  object-fit: cover;
+  padding: 15px;
+  object-position: center;
+
+}
+button{
+  float:right;
+  padding: 10px 50px;
+  margin-right: 3vw;
+}
+
+.label{
+  text-align: center;
+}
+
+.blue{
+  background-color: blue;
+  color: white;
+}

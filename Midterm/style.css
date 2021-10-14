@@ -1,0 +1,62 @@
+body{
+  background-color: #2B2D42;
+  color: #EDF2F4;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+#game{
+  display: flex;
+}
+
+.options{
+  flex-grow: 1;
+  width: auto;
+  margin: 3vw;
+  background-color: #8D99AE;
+  border: solid #EDF2F4 3px;
+  border-radius: 10px;
+}
+
+#rock{
+  height: 20vh;
+  width: 15vw;
+}
+
+#paper{
+  height: 20vh;
+  width: 20vw;
+}
+
+#scissors{
+  height: 20vh;
+  width: 15vw;
+}
+
+#buttons {
+  display: flex;
+}
+.label{
+  text-align: center;
+  color: #EDF2F4;
+}
+button{
+  float:right;
+  padding: 10px 50px;
+  margin-right: 3vw;
+  border: solid #D90429 2px;
+  background-color: #EDF2F4;
+  border-radius: 10px;
+  height: 50px;
+  width: 200px;
+  font-size: 20px;
+  color: #8D99AE;
+}
+
+#endgame{
+  text-align: center;
+  font-size: 40px;
+  color: #EF233C;
+}
+h1{
+  text-align: center;
+}
