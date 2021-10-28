@@ -8,30 +8,41 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
   </head>
   <body>
-<h1>Let's Play Rock, Paper, Scissors!</h1>
-<h2 id="endgame">You Win!</h2>
-<section id="game">
-  <div class="options">
+  <div class="start-game">
+<h1 id="endgame">Let's Play Rock, Paper, Scissors!</h1>
+  <button id="startgame">Start</button>
+</div>
+<div class="container">
+
+<section class="options">
+  <div class="rpsgame">
     <h2 class="label">User</h2>
-  </div>
-  <div class="options">
-    <h2 class="label">Opponent</h2>
+  </div class="mainimages">
+  <div id="userimage">
   </div>
 </section>
+
+<section class="options">
+  <div class="rpsgame">
+    <h2 class="label">Opponent</h2>
+  </div class="mainimages">
+  <div id="opponentimage">
+  </div>
+</section>
+
+</div>
 
 <section id="buttons">
   <div class="buttonoptions">
     <button id="rockbutton">Rock</button>
-    <img id="rock" src="assets/rock.png" alt="Rock">
   </div>
   <div class="buttonoptions">
 <button id="paperbutton">Paper</button>
-<img id="paper" src="assets/paper.png" alt="Paper">
   </div>
 
   <div class="buttonoptions">
   <button id="scissorsbutton">Scissors</button>
-  <img id="scissors" src="assets/scissors.png" alt="Scissors">
+
   </div>
 </section>
 
