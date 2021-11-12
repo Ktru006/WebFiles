@@ -1,29 +1,25 @@
 h1 {
   font-size: 50px;
   font-family: Helvetica;
-  color: #1F271B;
+  color: #212227;
   text-align: center;
 }
 h2 {
-  color: #145C9E;
-  font-family: Arial;
+  color: #637074;
 }
 h3 {
-  color: #145C9E;
+  color: #637074;
 }
 h4 {
-  color: #145C9E;
-}
-h5 {
-  color: #145C9E;
+  color: #637074;
   font-size: 20px;
 }
 body{
   font-family: sans-serif;
-  background-color: #CBB9A8;
-  color: #1F271B;
+  background-color: #BDD4E7;
+  color: #212227;
 }
-img {
+#heroimg {
   width: 20vw;
   border-style: solid;
   border-radius: 10px;
@@ -31,19 +27,17 @@ img {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
-  width: 20vw;
+  border-color: #8693AB;
 }
+
 #info {
-  font-family:Arial;
   border-radius: 10px;
-  border-color: #C6A495;
+  border-color: #8693AB;
   border-width: medium;
-  border-style:inset;
-  text-indent: 50px;
+  border-style: solid;
+  text-indent: 20px;
 }
-#interests {
-  color: #1F271B;
-}
+
 #course h3 {
   font-family: monospace;
   color: #145C9E;
@@ -56,12 +50,61 @@ img {
 #goals{
   color: #1F271B;
   border-radius: 10px;
-  border-color: #C6A495;
+  border-color: #8693AB;
   border-width: medium;
-  border-style: dashed;
+  border-style: solid;
   text-indent: 20px;
 }
 
-#course {
-  color: #1F271B;
+#grid{
+  display:flex;
+  flex-grow: 1;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-color: #8693AB;
+}
+.interests{
+  border: solid black 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 10px;
+  margin: 5px;
+  border-color: #AAB9CF;
+}
+
+#sideimg{
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+  border: solid black 2px;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-color: #8693AB;
+}
+
+@media screen and (min-width:1000px){
+  #sideimg{
+    display: block;
+  }
+  #grid{
+    flex-direction: row;
+  }
+
+  #hero h1{
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width:1001px){
+  #sideimg{
+    display: none;
+  }
+  #grid{
+    flex-direction: column;
+  }
+
+  }
 }
